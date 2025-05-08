@@ -1,0 +1,8 @@
+# Ignore everything under fuzz/
+fuzz/**
+
+# But keep all directories, even if empty
+!fuzz/
+!fuzz/**/
+!fuzz/out/.gitkeep
+!fuzz/in/dummy
