@@ -4,7 +4,7 @@ set -e
 # Set AFL++ environment
 export CC=afl-clang-fast
 export CXX=afl-clang-fast++
-export CFLAGS="-g -fno-stack-protector -U_FORTIFY_SOURCE -O0"
+export CFLAGS="-g -fno-stack-protector -U_FORTIFY_SOURCE -O0 -w"
 export CXXFLAGS="$CFLAGS"
 
 # Create and enter build directory
