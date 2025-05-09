@@ -15,7 +15,7 @@ export MALLOC_PERTURB_=0
 # Paths (customize if needed)
 SEEDS="fuzz/in"
 OUTDIR="fuzz/out"
-WRAPPER="moov_along/build/fastmp4"
+WRAPPER="../moov_along/build/fastmp4"
 TIMEOUT=5000
 #DICT="fuzz/dict.txt"
 
