@@ -5,4 +5,4 @@ fuzz/**
 !fuzz/
 !fuzz/**/
 !fuzz/out/.gitkeep
-!fuzz/in/dummy
+!fuzz/in/sample.mp4
