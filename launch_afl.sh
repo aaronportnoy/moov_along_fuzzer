@@ -3,6 +3,8 @@ set -euo pipefail
 
 # Shell script to launch AFL++
 
+export AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1
+export AFL_SKIP_CPUFREQ=1
 export AFL_MAP_SIZE=131072
 export ASAN_OPTIONS="alloc_dealloc_mismatch=0:abort_on_error=1:symbolize=0"
 export AFL_USE_ASAN=0
